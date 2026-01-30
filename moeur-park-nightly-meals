@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//AZ Hugs//Moeur Park Nightly Meals//EN
+
+BEGIN:VEVENT
+UID:moeur-park-nightly-meals@azhugs.org
+DTSTAMP:20260130T000000Z
+
+DTSTART;TZID=America/Phoenix:20250130T180000
+DTEND;TZID=America/Phoenix:20250130T220000
+
+SUMMARY:Moeur Park Nightly Meals
+
+DESCRIPTION:Hosted by AZ Hugs\n\nDirections:\nGoogle Maps: https://maps.google.com/?q=33.4370927,-111.9418927\nApple Maps: https://maps.apple.com/?ll=33.4370927,-111.9418927
+
+LOCATION:Moeur Park, Tempe AZ
+GEO:33.4370927;-111.9418927
+URL:https://maps.google.com/?q=33.4370927,-111.9418927
+
+ORGANIZER;CN=AZ Hugs:mailto:austinazhugs@gmail.com
+
+TRANSP:TRANSPARENT
+RRULE:FREQ=DAILY
+
+END:VEVENT
+END:VCALENDAR
